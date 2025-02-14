@@ -1,15 +1,3 @@
-// export function checkGameOver() {
-//     return new Promise((resolve) => {
-//       console.log("Initializing game...");
-//       setTimeout(() => {
-//         console.log("Game initialized successfully!");
-//         resolve();
-//       }, 1000);
-//     });
-//   }
-
-// initializeGame().then(() => console.log("Test complete: initializeGame"));
-
 export function checkGameOver() {
     return new Promise((resolve, reject) => {
         const conditions = false;
